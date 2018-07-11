@@ -28,7 +28,8 @@
  <a-assets>
      
       
-     
+  <a-asset-item id="star-flower" src="https://rawgit.com/Lia021/livingroom/master/fae%20house/star%20flower.dae"></a-asset-item>
+   
 
 
 
@@ -37,9 +38,19 @@
      
  </a-assets>
       
-      
+    <!--spawnintractable-blue-->
+
+    <a-entity n-spawner='res: interactables/can-soda-melon'position="0 2 0"></a-entity>
+   
  
+  <!--kiwi-->
+
+  <a-entity n-object='res:objects/kiwi'rotation="0 190 0"position="0 2 0"></a-entity>
+
  
+<!--star-flower-->
+
+<a-entity position="0 0 0" scale="1 1 1"rotation="0 0 0"  collada-model="#star-flower"n-mesh-collider="type: environment; convex: false"></a-entity>
 
 
 
